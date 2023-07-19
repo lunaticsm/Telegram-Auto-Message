@@ -24,18 +24,18 @@ async def main():
     # "me" is a user object. You can pretty-print
     # any Telegram object with the "stringify" method:
     # print(me.stringify())
-    
+
     with open("listjoin.json", 'r') as openfile:
         lists = json.load(openfile)
 
     for grup in lists:
-        print("[*] Joining : "+grup)
+        print(f"[*] Joining : {grup}")
         try:
             await client(JoinChannelRequest(channel=grup))
-            print("[+] Successfully join "+grup+"\n")
+            print(f"[+] Successfully join {grup}" + "\n")
         except:
-            print("[-] Failed to join "+grup+"\n")
-        
+            print(f"[-] Failed to join {grup}" + "\n")
+
         time.sleep(240)
 
 with client:
