@@ -11,6 +11,9 @@ api_id = os.getenv("API_ID")
 api_hash = os.getenv("API_HASH")
 api_name = os.getenv("API_NAME")
 # Account connection
+api_id = 
+api_hash = ''
+api_name = ''
 client = TelegramClient(api_name, api_id, api_hash)
 
 
@@ -37,7 +40,7 @@ async def main():
             except Exception as e:
                 print(data['name']+" "+str(data['id'])+" failed to send. Reason : "+str(e))
         
-            time.sleep(90)
+            time.sleep(10)
         os.system('cls' if os.name == 'nt' else 'clear')
         js = []
     
@@ -51,8 +54,8 @@ async def main():
                 print(dialog.name, "has ID", dialog.id)
         with open("groups.json", "w") as outfile :
             json.dump(js,outfile)
-        print("\nwaiting next loop 60 seconds")
-        time.sleep(60)
+        print("\nwaiting next loop 10 seconds")
+        time.sleep(10)
         os.system('cls' if os.name == 'nt' else 'clear')
 
 with client:
