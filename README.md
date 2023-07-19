@@ -14,7 +14,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan bot ini dengan bijak.
 
 * `API_HASH` Dapatkan API HASH di web my.telegram.org.
 * `API_ID` Dapatkan APP ID di web my.telegram.org.
-* `TAPI_NAME` Dapatkan APP ID di web my.telegram.org.
+* `TAPI_NAME` Dapatkan APP NAME di web my.telegram.org.
 
 ### Extra Variables
 
