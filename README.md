@@ -25,6 +25,10 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan bot ini dengan bijak.
 
 </details>
 
+## PR
+* » Masih memiliki masalah di bagian /check_berhasil dan /check_gagal, yang ketika sudah dijalankan lama, list grup yang terkirim akan double sehingga menyebabkan list yang banyak, Feel free to open pull request untuk ngebantu memperbaiki kodenya.
+
+
 ## 👨🏻‍💻 Credits
 
 -  [Lunatics](https://github.com/lunaticsm) for [Telegram-Auto-Message](https://github.com/lunaticsm/Telegram-Auto-Message)
