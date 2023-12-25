@@ -15,7 +15,10 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan bot ini dengan bijak.
 * `API_HASH` Dapatkan API HASH di web my.telegram.org.
 * `API_ID` Dapatkan APP ID di web my.telegram.org.
 * `TAPI_NAME` Dapatkan APP NAME di web my.telegram.org.
-
+* `ADMIN_LIST` Tambahkan ID untuk admin, jika 2 atau lebih split menggunakan `,` .
+* `IGNORE_GRUP` Tambahkan ID grup untuk grup yang di kesampingkan untuk mengirim pesan auto.
+* ` LOG_GRUP_ID` Tambahkan ID grup log untuk mengirim pesan log.
+ 
 ### Extra Variables
 
 * The delay function can be configured in the `time.sleep()` block of code.
